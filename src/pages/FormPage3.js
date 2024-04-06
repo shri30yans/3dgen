@@ -26,7 +26,7 @@ function ImageSelection() {
         </label>
       </div>
       {/* Add more images as needed */}
-      {selectedImage && <Link to="/form/4">Continue with this image</Link>}
+      {selectedImage && <Link to="/3D">Continue with this image</Link>}
     </div>
   );
 }
