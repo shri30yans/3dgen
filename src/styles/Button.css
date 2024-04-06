@@ -1,10 +1,11 @@
-.btn-conteiner {
+.btn-container {
     display: flex;
     justify-content: center;
     --color-text: #ffffff;
     --color-background: #ff135a;
     --color-outline: #ff145b80;
     --color-shadow: #00000080;
+    margin-top: 50px;
   }
   
   .btn-content {
@@ -102,12 +103,12 @@
       outline: 0.2em solid var(--color-background);
       outline-offset: 0;
     }
-  }.btn-conteiner {
+  }.btn-container {
   display: flex;
   justify-content: center;
   --color-text: #ffffff;
-  --color-background: #ff135a;
-  --color-outline: #ff145b80;
+  --color-background: #41f2ff;
+  --color-outline: #045a9080;
   --color-shadow: #00000080;
 }
 
