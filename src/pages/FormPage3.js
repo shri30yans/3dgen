@@ -1,6 +1,7 @@
 // pages/FormPage3.js
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import '../styles/form.css';
 
 function FormPage3() {
   const [selectedImage, setSelectedImage] = useState("");
