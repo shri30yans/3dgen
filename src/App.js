@@ -29,17 +29,20 @@
 // App.js
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import FormPage1 from "./pages/FormPage1";
-import FormPage2 from "./pages/FormPage2";
-import FormPage3 from "./pages/FormPage3";
+import Input_Prompt from "./pages/Page1";
+import Image_gen from "./pages/Page2";
+import Print_settings from "./pages/Page3";
+import ThreeDModel_gen from "./pages/Page4";
+
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<FormPage1 />} />
-        <Route path="/form/2" element={<FormPage2 />} />
-        <Route path="/form/3" element={<FormPage3 />} />
+        <Route path="/" element={<Input_Prompt />} />
+        <Route path="/image_gen" element={<Image_gen />} />
+        <Route path="/print_settings" element={<Print_settings />} />
+        <Route path="/3dmodel_gen" element={<ThreeDModel_gen />} />
       </Routes>
     </Router>
   );

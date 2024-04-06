@@ -114,6 +114,7 @@
 
 .btn-content {
   display: flex;
+  border-color: #2e97ff80;
   align-items: center;
   padding: 5px 30px;
   text-decoration: none;

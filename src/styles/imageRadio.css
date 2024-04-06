@@ -1,0 +1,33 @@
+
+    .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 10px;
+  }
+  
+  .image-radio-input {
+    display: none;
+  }
+  
+  .image-radio-input {
+    display: none;
+  }
+  
+  .image-radio-label {
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .image-radio-label:hover {
+    border-color: #02fbff;
+  }
+  
+  .image-radio-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+  
+  }
+  
