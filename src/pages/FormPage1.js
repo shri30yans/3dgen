@@ -1,8 +1,9 @@
 // pages/FormPage1.js
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import '../styles/form.css';
 
-function FormPage2() {
+function FormPage1() {
   const [prompt, setPrompt] = useState("");
   const [betterPrompt, setBetterPrompt] = useState("");
 
@@ -14,7 +15,7 @@ function FormPage2() {
   };
 
   return (
-    <form>
+    <form className="form-page">
       <label>
         Enter a prompt:
         <input type="text" value={prompt} onChange={handlePromptChange} />

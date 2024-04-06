@@ -1,8 +1,9 @@
 // pages/FormPage2.js
 import React, { useState } from "react";
 import { Form, Link } from "react-router-dom";
+import '../styles/form.css';
 
-function PrintSettings() {
+function FormPage2() {
   const [printSetting, setPrintSetting] = useState("");
 
   const handleSettingChange = (event) => {
@@ -10,7 +11,9 @@ function PrintSettings() {
   };
 
   return (
-    <form>
+    
+    <form className="form-page">
+       
       <label>
         Select print setting:
         <select value={printSetting} onChange={handleSettingChange}>
